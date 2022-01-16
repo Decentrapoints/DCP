@@ -1,13 +1,7 @@
 /* 
-
 Catalyst Template
-
 http://www.templatemo.com/tm-499-catalyst
-
-
-
 Pink #cc3467
-
 */
 
 a, a:hover, a:focus { text-decoration: none; }
@@ -50,6 +44,8 @@ p { margin: 0 0 20px; line-height: 1.8; }
 }
 
 #home { padding-top: 1.5em; }
+#social { align-items: center;}
+
 .content {
     padding-right: 0px;
     padding-left: 0px;
@@ -59,16 +55,9 @@ p { margin: 0 0 20px; line-height: 1.8; }
     padding-left: 5%;
     min-height:570px !important;
 }
-.content-item p:last-child {
-    margin-bottom: 0;
-}
-.background.content-item-1 {
-    padding: 60px 65px;
-}
-
-.tm-content-box {
-    padding: 55px 45px;
-}
+.content-item p:last-child { margin-bottom: 0; }
+.background.content-item-1 { padding: 60px 65px; }
+.tm-content-box { padding: 55px 45px; }
 
 .main-title {    
     font-weight: 300;
@@ -141,18 +130,14 @@ p { margin: 0 0 20px; line-height: 1.8; }
     font-weight: 400;
     padding: 48px 0;
 }
-.footer a {
-	color: #fff;
-}
+.footer a { color: #fff; }
 
 .margin-b-0 { margin-bottom: 0; }
 .tm-white-text { color: white; }
 .tm-white-bg { background-color: white; }
 .tm-white-translucent-bg { background-color: rgba(255,255,255, 0.9); }
 .tm-black-translucent-bg { background-color: rgba(0,0,0,0.7); }
-.tm-black-translucent-bg > * {
-    color: white;
-}
+.tm-black-translucent-bg > * { color: white; }
 
 .tm-float-section-header {
     position: absolute;
@@ -257,7 +242,7 @@ h1 { font-size: 54px; }
     margin-top: 50px;
 }
 
-.tm-img-box-2,
+.tm-img-box-2, 
 .tm-img-box-4 { margin-top: 15px; }
 
 .tm-equal-col-container {
