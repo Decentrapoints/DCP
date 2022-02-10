@@ -262,7 +262,7 @@ h1 { font-size: 54px; }
     p { margin: 0 0 10px; }
     .btn { margin-top: 15px; }    
     textarea#message { height: 125px; }
-    .bodyIcons{  word-spacing: .2in; }
+    .bodyIcons{ size: 1rem; }
 }
 
 @media screen and (max-width: 1199px) and (min-width: 992px) {
@@ -271,11 +271,11 @@ h1 { font-size: 54px; }
     .btn { margin-top: 10px; }
     .btn-contact { margin-top: 0; }
     .form-control { font-size: 0.9em; }
-    .bodyIcons{  word-spacing: .2in; }
+    .bodyIcons{ size: 1rem; }
 }
 
 @media screen and (max-width:991px){
-    .bodyIcons{  word-spacing: .2in; }
+    .bodyIcons{ size: 1rem; }
     .content-item {
         min-height: inherit !important;
         padding-top: 10%;
@@ -343,14 +343,14 @@ h1 { font-size: 54px; }
 }
 
 @media screen and (max-width:767px){
-    .bodyIcons{  word-spacing: .2in; }
+    .bodyIcons{ size: 1rem; }
     #home { padding-top: 62px; }
     .main-title { margin-bottom: 30px; }
 }
 
 @media screen and (max-width:500px) {
     .btn { margin-top: 10px; }
-    .bodyIcons{  word-spacing: .2in; }
+    .bodyIcons{ size: 1rem; }
     .tm-float-section-body { 
         padding: 10px;
         margin-top: -90px;
@@ -359,7 +359,7 @@ h1 { font-size: 54px; }
 
 @media screen and (max-width: 480px) {
     .background.content-item-1 { padding: 40px 45px; }
-    .bodyIcons{  word-spacing: .2in; }
+    .bodyIcons{ size: 1rem; }
 }
 
 @media screen and (max-width: 460px) {
@@ -369,11 +369,11 @@ h1 { font-size: 54px; }
         padding-left: 0;
         padding-right: 0;
     }
-    .bodyIcons{  word-spacing: .2in; }
+    .bodyIcons{ size: 1rem; }
 }
 
 @media screen and (max-width: 420px) {
     .background { padding: 40px 35px; }
     .background.content-item-1 { padding: 20px 25px; }
-    .bodyIcons{  word-spacing: .2in; }
+    .bodyIcons{  size: 1rem; word-spacing: .2in; }
 }
