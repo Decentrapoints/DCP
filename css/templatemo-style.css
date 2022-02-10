@@ -48,8 +48,9 @@ p { margin: 0 0 20px; line-height: 1.8; }
     align-items: center; word-spacing: .42in; 
 }
 .bodyIcons{  word-spacing: .42in; }
-
-a.contact-links:hover{ color:rgba(204, 52, 103, 1); }
+a.contact-links:hover,
+a.mail-links:hover,
+a.body-links:hover { color:rgba(204, 52, 103, 1); }
 
 .content { padding-right: 0px; padding-left: 0px; }
 .content-item {
@@ -261,6 +262,7 @@ h1 { font-size: 54px; }
     p { margin: 0 0 10px; }
     .btn { margin-top: 15px; }    
     textarea#message { height: 125px; }
+    .bodyIcons{  word-spacing: .2in; }
 }
 
 @media screen and (max-width: 1199px) and (min-width: 992px) {
@@ -269,10 +271,11 @@ h1 { font-size: 54px; }
     .btn { margin-top: 10px; }
     .btn-contact { margin-top: 0; }
     .form-control { font-size: 0.9em; }
+    .bodyIcons{  word-spacing: .2in; }
 }
 
 @media screen and (max-width:991px){
-
+    .bodyIcons{  word-spacing: .2in; }
     .content-item {
         min-height: inherit !important;
         padding-top: 10%;
@@ -340,14 +343,14 @@ h1 { font-size: 54px; }
 }
 
 @media screen and (max-width:767px){
-    
+    .bodyIcons{  word-spacing: .2in; }
     #home { padding-top: 62px; }
     .main-title { margin-bottom: 30px; }
 }
 
 @media screen and (max-width:500px) {
     .btn { margin-top: 10px; }
-
+    .bodyIcons{  word-spacing: .2in; }
     .tm-float-section-body { 
         padding: 10px;
         margin-top: -90px;
@@ -356,6 +359,7 @@ h1 { font-size: 54px; }
 
 @media screen and (max-width: 480px) {
     .background.content-item-1 { padding: 40px 45px; }
+    .bodyIcons{  word-spacing: .2in; }
 }
 
 @media screen and (max-width: 460px) {
@@ -365,9 +369,11 @@ h1 { font-size: 54px; }
         padding-left: 0;
         padding-right: 0;
     }
+    .bodyIcons{  word-spacing: .2in; }
 }
 
 @media screen and (max-width: 420px) {
     .background { padding: 40px 35px; }
     .background.content-item-1 { padding: 20px 25px; }
+    .bodyIcons{  word-spacing: .2in; }
 }
