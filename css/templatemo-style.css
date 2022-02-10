@@ -44,7 +44,9 @@ p { margin: 0 0 20px; line-height: 1.8; }
 }
 
 #home { padding-top: 1.5em; }
-#social { align-items: center; word-spacing: .42in; }
+#social { 
+    align-items: center; word-spacing: .42in; 
+}
 a.contact-links:hover{ color:rgba(204, 52, 103, 1); }
 
 .content { padding-right: 0px; padding-left: 0px; }
@@ -227,7 +229,8 @@ h1 { font-size: 54px; }
 }
 
 .tm-right-col {
-    margin-left: 15px; margin-top: 50px;
+    margin-left: 15px;
+    margin-top: 50px;
 }
 
 .tm-img-box-2, 
@@ -241,10 +244,14 @@ h1 { font-size: 54px; }
 
 .tm-services-section-padding { padding-bottom: 100px; }
 
-.tm-img { width: 100%; height: auto; }
+.tm-img {
+    width: 100%;
+    height: auto;
+}
 
 .tm-logo-box {
-    text-align: center; padding-top: 140px;
+    text-align: center;
+    padding-top: 140px;
 }
 
 @media screen and (max-width:1199px){
@@ -252,8 +259,6 @@ h1 { font-size: 54px; }
     p { margin: 0 0 10px; }
     .btn { margin-top: 15px; }    
     textarea#message { height: 125px; }
-    i.bodyIcons{ size: 10px; } 
-    /* this should make the FA ICONS small and inline on mobile */
 }
 
 @media screen and (max-width: 1199px) and (min-width: 992px) {
@@ -262,8 +267,6 @@ h1 { font-size: 54px; }
     .btn { margin-top: 10px; }
     .btn-contact { margin-top: 0; }
     .form-control { font-size: 0.9em; }
-    i.bodyIcons{ size: 10px; } 
-    /* this should make the FA ICONS small and inline on mobile */
 }
 
 @media screen and (max-width:991px){
@@ -278,7 +281,8 @@ h1 { font-size: 54px; }
     .background p { line-height: 27px; }
     .background p { font-size: 16px; }
     .background h2 {
-        margin-bottom: 30px; margin-top: 0;
+        margin-bottom: 30px;
+        margin-top: 0;
     }
     p { margin: 0 0 20px; }
     .btn { margin-top: 20px; }
@@ -326,20 +330,17 @@ h1 { font-size: 54px; }
     .tm-float-section-body { margin-top: -110px; }
 
     .tm-fa-icon {
-        margin-top: 20px; margin-bottom: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
 
     .tm-section-3-header { margin-top: 0; }
-    i.bodyIcons{ size: 10px; } 
-    /* this should make the FA ICONS small and inline on mobile */
 }
 
 @media screen and (max-width:767px){
     
     #home { padding-top: 62px; }
     .main-title { margin-bottom: 30px; }
-    i.bodyIcons{ size: 10px; } 
-    /* this should make the FA ICONS small and inline on mobile */
 }
 
 @media screen and (max-width:500px) {
@@ -349,29 +350,22 @@ h1 { font-size: 54px; }
         padding: 10px;
         margin-top: -90px;
     }
-    i.bodyIcons{ size: 10px; } 
-    /* this should make the FA ICONS small and inline on mobile */
 }
 
 @media screen and (max-width: 480px) {
     .background.content-item-1 { padding: 40px 45px; }
-    i.bodyIcons{ size: 10px; } 
-    /* this should make the FA ICONS small and inline on mobile */
 }
 
 @media screen and (max-width: 460px) {
     .tm-float-section-header { height: 220px; }
     .tm-float-section-body,
     .tm-float-section-body .col-lg-12 {
-        padding-left: 0; padding-right: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
-    i.bodyIcons{ size: 10px; } 
-    /* this should make the FA ICONS small and inline on mobile */
 }
 
 @media screen and (max-width: 420px) {
     .background { padding: 40px 35px; }
     .background.content-item-1 { padding: 20px 25px; }
-    i.bodyIcons{ size: 10px; } 
-    /* this should make the FA ICONS small and inline on mobile */
 }
