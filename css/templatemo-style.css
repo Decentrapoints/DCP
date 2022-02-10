@@ -44,33 +44,28 @@ p { margin: 0 0 20px; line-height: 1.8; }
 }
 
 #home { padding-top: 1.5em; }
-#social { align-items: center;}
-
-.content {
-    padding-right: 0px;
-    padding-left: 0px;
+#social { 
+    align-items: center; word-spacing: .42in; 
 }
+a.contact-links:hover{ color:rgba(204, 52, 103, 1); }
+
+.content { padding-right: 0px; padding-left: 0px; }
 .content-item {
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 5%; padding-left: 5%;
     min-height:570px !important;
 }
 .content-item p:last-child { margin-bottom: 0; }
 .background.content-item-1 { padding: 60px 65px; }
 .tm-content-box { padding: 55px 45px; }
 
-.main-title {    
-    font-weight: 300;
-    font-size: 34px;
-    line-height: 1.4;
-    margin-top: 130px;
-    margin-bottom: 30px;
+.main-title {  
+    line-height: 1.4;  
+    font-weight: 300; font-size: 34px;
+    margin-top: 130px; margin-bottom: 30px;
 }
 .contact-title {
-    font-weight: 300;
-    font-size: 34px;
-    line-height: 1.4;
-    margin-bottom: 30px;   
+    font-weight: 300; font-size: 34px;
+    line-height: 1.4; margin-bottom: 30px;   
 }
 
 .dark-blue-text { color: #006699; }
@@ -87,9 +82,7 @@ p { margin: 0 0 20px; line-height: 1.8; }
 }
 .btn:last-child { margin-right: 0; }
 .btn-big {
-    padding: 10px 40px;
-    min-width: 176px;
-}
+    padding: 10px 40px; min-width: 176px; }
 .btn-contact {
     font-size: 2rem;
     padding: 10px 35px;
@@ -99,9 +92,7 @@ p { margin: 0 0 20px; line-height: 1.8; }
     transition: all 0.3s ease;
 }
 .btn-contact:hover,
-.btn-contact:focus {
-    background-color: rgba(47,47,47,0.5);
-}
+.btn-contact:focus { background-color: rgba(47,47,47,0.5); }
 
 .form-control {
     box-shadow: none;
