@@ -44,14 +44,25 @@ p { margin: 0 0 20px; line-height: 1.8; }
 }
 
 #home { padding-top: 1.5em; }
-#social { 
-    align-items: center; word-spacing: .42in; 
-}
+#social { align-items: center; word-spacing: .42in; }
 .bodyIcons{  word-spacing: .42in; }
-a.contact-links:hover,
-a.mail-links:hover,
+a.contact-links:hover, a.mail-links:hover,
 a.body-links:hover { color:rgba(204, 52, 103, 1); }
 
+/* */
+span.tapi { font-weight: bold; }
+span.ali a.diced:hover{ color:rgba(204, 52, 103, 1); }
+span.alba { font-weight: bold; } span.ali { font-weight: bold; }
+
+#contSize { font-size: 12px;}
+a img#alb0xNFT:hover { opacity: 60%; }
+#alb0xNFT{ float: right; width: 80px; height: 80px; }
+
+a img#tgmNFT:hover { opacity: 60%; }
+#tgmNFT{ float: right; width: 80px; height: 80px; }
+
+a img#dcpNFT:hover { opacity: 60%; }
+#dcpNFT{ float: right; width: 80px; height: 80px; }
 .content { padding-right: 0px; padding-left: 0px; }
 .content-item {
     padding-right: 5%; padding-left: 5%;
