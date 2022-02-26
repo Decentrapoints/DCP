@@ -53,7 +53,7 @@ a.body-links:hover { color:rgba(204, 52, 103, 1); }
 span.tapi { font-weight: bold; }
 span.ali a.diced:hover{ color:rgba(204, 52, 103, 1); }
 span.alba { font-weight: bold; } span.ali { font-weight: bold; }
-
+span.opts { font-size: 14px;}
 #contSize { font-size: 12px;}
 a img#alb0xNFT:hover { opacity: 60%; }
 #alb0xNFT{ float: right; width: 80px; height: 80px; }
@@ -179,6 +179,17 @@ h1 { font-size: 54px; }
 .tm-btn-primary:focus {
     background-color: #e74a7e; color: white;
 }
+/* Small Buttons */
+.tm-btn-primary-small {
+    font-size: 13px; border-radius: 25px;
+    padding: 3px; width: 130px;
+    background-color: #cc3467; color: white;
+}
+.tm-btn-primary-small:hover,
+.tm-btn-primary-small:focus {
+    background-color: #e74a7e; color: white;
+}
+.tm-btn-primary-small, a { color: white; }
 
 .form-control:focus {
     border-color: rgba(204, 52, 103, 1); outline: 0;
@@ -311,11 +322,11 @@ h1 { font-size: 54px; }
     .tm-float-section-body .col-lg-12 {
         padding-left: 0; padding-right: 0;
     }
-    i#bodyIcons{  font-size: 55px; }
+    i#bodyIcons{ font-size: 45px; }
 }
 
 @media screen and (max-width: 420px) {
     .background { padding: 40px 35px; }
     .background.content-item-1 { padding: 20px 25px; }
-    i#bodyIcons{ size: 55px; word-spacing: .2in; }
+    i#bodyIcons{ size: 45px; word-spacing: .2in; }
 }
