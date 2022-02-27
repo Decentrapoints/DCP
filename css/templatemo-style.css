@@ -190,7 +190,7 @@ h1 { font-size: 54px; }
 .tm-btn-primary-small:focus {
     background-color: #e74a7e; color: white;
 }
-.tm-btn-primary-small, a { color: white; }
+.tm-btn-primary-small a { color: white; }
 
 .form-control:focus {
     border-color: rgba(204, 52, 103, 1); outline: 0;
