@@ -6,7 +6,7 @@ Pink #cc3467
 
 a, a:hover, a:focus { text-decoration: none; }
 a:focus { outline: none; }
-
+a#infoBtn i{ color:#006699; }
 body{
     margin:0; padding:0;
     background-image:url(../images/5.png);
@@ -21,6 +21,7 @@ img.portrait{
     border: 30px rgba(#006699);
     width: 250px; height: 250px;
 }
+/*img.portrait:hover:focus{ color:rgba(#006699); }*/
 .tm-logo { margin-bottom: 25px; }
 
 p { margin: 0 0 20px; line-height: 1.8; }
@@ -46,7 +47,7 @@ p { margin: 0 0 20px; line-height: 1.8; }
 #home { padding-top: 1.5em; }
 #social { align-items: center; word-spacing: .42in; }
 .bodyIcons{  word-spacing: .42in; }
-a.contact-links:hover, a.mail-links:hover,
+a.contact-links{ color: #006699; } .contact-links:hover, a.mail-links:hover,
 a.body-links:hover { color:rgba(204, 52, 103, 1); }
 
 /* */
